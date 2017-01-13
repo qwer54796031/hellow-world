@@ -1,0 +1,530 @@
+body,ul,img,li,a,span,hr,div,h2,h4,h6,input,sup,dl,dt,dd,del{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "微软雅黑";
+}
+body{
+	background-color: #f6f6f6;
+}
+ul{
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.fb{
+	font-weight: bold;
+}
+#header{
+	height: 30px;
+	background-color: gainsboro;
+}
+#top-t{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "宋体";
+	font-size: 12px;
+	color: gray;
+	line-height: 30px;
+}
+.city{
+	width: 235px;
+}
+#top-t{
+	background-color: gainsboro;
+	height: 30px;
+}
+#top-t li a{
+	margin: 0 7px;
+}
+#top-t li a:link,#top-t li a:visited{
+	color: gray;
+}
+#top-t li a:hover,#top-t li a:active{
+	color: brown;
+}
+#top-t li #red:link,#top-t li #red:visited{
+	color: red;
+}
+#top-t li #red:hover,#top-t li #red:active{
+	color: brown;
+}
+.top-sub{
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+.hover:hover .top-sub{
+	background-color: white;
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+.top-sub1{
+	padding: 0 7px;
+}
+#top-t li{
+	position: relative;
+}
+.top-sub2{
+	border: 1px solid gainsboro;
+	border-top: none;
+	width: 250px;
+	position: absolute;
+	top: 30px;
+	display: none;
+	z-index: 10;
+	background-color: white;
+}
+.hover:hover .top-sub2{
+	display: block;
+}
+.top-sub2 ul{
+	padding: 0 5px;
+}
+.top-sub2 li{
+	width: 115px;
+	text-align: left;
+}
+.clear{
+	clear: both;
+}
+.hr{
+	background-color: #F0F0F0;
+	height: 1px;
+}
+.top-sub3{
+	position: absolute;
+	left: -98px;
+	top: 30px;
+	width: 170px;
+	border: 1px solid gainsboro;
+	border-top: none;
+	display: none;
+	z-index: 10;
+	background-color: white;
+}
+.top-sub3 h4{
+	text-align: left;
+	padding: 0 15px;
+	color: black;
+}
+.top-sub3 li{
+	padding: 0 0 0 10px;
+	width: 75px;
+	text-align: left;
+}
+.hover:hover .top-sub3{
+	display: block;
+}
+.top-sub4{
+	position: absolute;
+	left: -1128px;
+	top: 30px;
+	width: 1200px;
+	border: 1px solid gainsboro;
+	border-top: none;
+	display: none;
+	z-index: 10;
+	background-color: white;
+}
+.top-sub4 div{
+	width: 278px;
+	border-left: 1px solid gainsboro;
+	margin: 20px 0;
+	height: 180px;
+}
+#top-sub4-fd{
+	width: 358px;
+}
+.top-sub4 div li{
+	text-align: left;
+	width: 89px;
+}
+.top-sub4 div h4{
+	color: black;
+	text-align: left;
+	margin-left: 7px;
+}
+.hover:hover .top-sub4{
+	display: block;
+}
+#top-d{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+#logo{
+	position: absolute;
+	top: -45px;
+	box-shadow: 0 0 5px gray;
+}
+#serch{
+	margin-left: 300px;
+	margin-top: 15px;
+}
+#serch input{
+	width: 550px;
+	height: 33px;
+	border: 1px solid red;
+}
+#serch_b{
+	background-color: blue;
+	position: relative;
+	top: 12px;
+	left: -10px;
+	cursor: pointer;
+}
+#hot{
+	margin-left: 300px;
+}
+#hot a{
+	margin-right: 10px;
+	font-size: 12px;
+}
+#hot a:link,#hot a:visited{
+	color: gray;
+}
+#hot a:hover,#hot a:active{
+	color: brown;
+}
+#hot .a-r:link,#hot .a-r:visited{
+	color: red;
+}
+#hot .a-r:hover,#hot .a-r:active{
+	color: brown;
+}
+#nav{
+	margin-left: 230px;
+}
+#nav li{
+	margin: 10px 15px 0;
+}
+#nav .xg{
+	margin: 20px 0 10px;
+	background-color: gainsboro;
+	width: 1px;
+	height: 10px;
+}
+#nav li a{
+	font-weight: bold;
+	font-size: 17px;
+	font-family: "微软雅黑";
+}
+#nav li a:link,#nav li a:visited{
+	color: #323232;
+}
+#nav li a:hover,#nav li a:active{
+	color: #D71C23;
+}
+#gwc{
+	width: 180px;
+	height: 35px;
+	text-align: center;
+	border: 1px solid gainsboro;
+	color: red;
+	font-size: 12px;
+	position: relative;
+	top: -32px;
+	line-height: 35px;
+}
+#gwc sup{
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	line-height: 15px;
+	color: white;
+	border-radius: 100%;
+	position: absolute;
+	left: 120px;
+	top: 5px;
+	display: block;
+}
+#gwc:hover{
+	border: 1px solid #A0A0A0;
+	border-bottom: 1px solid white;
+}
+#gwc div{
+	background-color: white;
+	width: 300px;
+	height: 60px;
+	position: relative;
+	left: -121px;
+	border: 1px solid #A0A0A0;
+	border-top: none;
+	display: none;
+}
+#gwc .t_x{
+	width: 118px;
+	height: 0.5px;
+	background-color: #A0A0A0;
+	position: absolute;
+	left: 0px;
+}
+#gwc span{
+	color: gray;
+	line-height: 60px;
+}
+#gwc:hover div{
+	display: block;
+}
+#content{
+	width: 1200px;
+	margin: 0 auto;
+}
+#meau{
+	background-color: dimgrey;
+	width: 192px;
+	height: 463px;
+	color: white;
+	padding: 10px 0;
+	position: relative;
+	float: left;
+}
+#meau li{
+	width: 172px;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+#meau li:hover{
+	background-color: darkgray;
+}
+#meau li:hover .submeau{
+	display: block;
+}
+#meau li a:link,#meau li a:visited{
+	color: white;
+}
+#meau li a:hover,#meau li a:active{
+	color: red;
+}
+.submeau{
+	position: absolute;
+	left: 192px;
+	top: 0;
+	width: 968px;
+	padding: 20px;
+	font-size: 12px;
+	box-shadow: 0 0 2px gray;
+	display: none;
+	background-color: white;
+}
+.submeau_l{
+	width: 750px;
+	float: left;
+}
+#meau .submeau_ul li{
+	background-color: dimgrey;
+	padding: 5px 10px;
+	width: auto;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+#meau .submeau_ul li:hover{
+	background-color: #323232;
+}
+#meau .submeau_ul li a{
+	margin-right: 8px;
+}
+#meau .submeau_ul li a:hover,#meau .submeau_ul li a:active{
+	color: white;
+}
+dl{
+	color: gray;
+}
+dt{
+	text-align: right;
+	width: 70px;
+	font-weight: bold;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+#meau dl dd a{
+	padding: 0 8px;
+	border-left: 1px solid gainsboro;
+	float: left;
+	margin-bottom: 10px;
+}
+#meau dl a:link,#meau dl a:visited{
+	color: gray;
+}
+#meau dl a:hover,#meau dl a:active{
+	color: brown;
+}
+.submeau_r{
+	float: right;
+}
+dd{
+	border-bottom: 1px solid gainsboro;
+	width: 670px;
+	float: left;
+	margin-bottom: 10px;
+}
+.dd_last{
+	border-bottom: none;
+}
+#banner{
+	float: left;
+	margin: 0 10px;
+}
+#banner_d{
+	margin-top: 6px;
+}
+#banner_d_l{
+	margin-right: 7px;
+}
+#r_side{
+	width: 193px;
+	height: 483px;
+	float: right;
+	font-size: 12px;
+	color: gray;
+	background-color: white;
+}
+#r_side a:link,#r_side a:visited{
+	color: gray;
+}
+#r_side a:hover,#r_side a:active{
+	color: brown;
+}
+#tb{
+	width: 50px;
+	height: 50px;
+	background-color: gainsboro;
+	border-radius: 50%;
+	margin: 0px 10px 20px;
+}
+.r{
+	border: 2px solid crimson;
+	padding: 2px 10px;
+	margin-left: 10px;
+}
+#r_side .r:link,#r_side .r:visited{
+	color: red;
+}
+#r_side .r:hover,#r_side .r:active{
+	color: white;
+	background-color: crimson;
+}
+#r_side_dd{
+	margin-top: 20px;
+	padding: 5px 10px;
+	border-top: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+}
+.r_b{
+	border-right: 1px solid gainsboro;
+}
+#r_side_dd h6{
+	padding: 0 10px;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+.mg{
+	display: block;
+	margin: 10px 0;
+}
+.tubiao{
+	background-image: url(image/tubiao.png);
+	width: 193px;
+	height: 211px;
+}
+.tubiao li{
+	text-align: center;
+	border-right: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+	line-height: 100px;
+	width: 46px;
+	height: 69px;
+}
+.tubiao_t{
+	border-top: 2px solid white;
+}
+.tubiao .tubiao_r{
+	border-right: none;
+}
+#r_side span{
+	display: block;
+	text-align: center;
+	line-height: ;
+	background-color: #696969;
+	width: 193px;
+	height: 32px;
+	color: white;
+	font-weight: 500;
+	line-height: 32px;
+}
+#contener{
+	background-color: white;
+	overflow: hidden;
+}
+#ms{
+	margin-top: 5px;
+}
+#ms_time{
+	background-color: #cf0313;
+	background-image: url(image/miaosha_top.png);
+	background-repeat: no-repeat;
+	width: 1200px;
+	height: 55px;
+	line-height: 55px;
+}
+#ms_time h2{
+	font-size: 25px;
+	margin-left: 80px;
+	color: white;
+	font-weight: 200;
+	display: inline;
+}
+#ms_time a:link,#ms_time a:visited,#ms_time a:hover,#ms_time a:active{
+	color: white;
+	font-size: 15px;
+}
+.ms_item{
+	width: 180px;
+	padding: 0 9px;
+	margin: 10px 0;
+	border-right:1px solid gainsboro;
+}
+.ms_item a{
+	font-size: 15px;
+}
+.ms_item a:link,.ms_item a:visited{
+	color: gray;
+}
+.ms_item a:hover,.ms_item a:active{
+	color: brown;
+}
+.ms_item .ms_a_img{
+	display: block;
+	position: relative;
+	top: 0;
+	transition: top 0.5s;
+	-moz-transition: top 0.5s; /* Firefox 4 */
+	-webkit-transition: top 0.5s; /* Safari and Chrome */
+	-o-transition: top 0.5s; /* Opera */
+}
+.ms_item a:hover .ms_a_img{
+	position: relative;
+	top: -10px;
+}
+.ms_item span{
+	color: red;
+}
+del{
+	font-size: 12px;
+}
+#ms_more{
+	padding: 10px;
+}
+#ms_more img{
+	width: 180px;
+	height: 255px;
+}
